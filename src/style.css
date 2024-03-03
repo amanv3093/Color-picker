@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    padding: 20px;
+}
+main{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2rem;
+}
+.innerBox1{
+    width: 100%;
+height: 70%;
+}
+.innerBox2{
+    width: 100%;
+    height: 30%;
+    padding: 15px 5px;
+}
+.innerBox2 p{
+    font-size: 15px;
+    color: gray;
+}
